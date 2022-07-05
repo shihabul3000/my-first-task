@@ -1,0 +1,66 @@
+#center-text {
+    padding-top: 10%;
+    padding-left: 30%;
+}
+
+.second-h4text {
+    padding-left: 25%;
+}
+
+.first-h1text {
+    padding-left: 10%;
+}
+
+.second-h1text {
+    padding-left: 15%;
+}
+
+#second-h1text {
+    padding-left: 33%;
+}
+
+#first-h4text {
+    padding-left: 22%;
+}
+
+
+.button-position {
+    text-decoration: none;
+    padding-left: 32%;
+    font-size: 30px;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 200px;
+    right: 500px;
+
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img {
+    width: 400px;
+    height: 300px
+}
+
+.column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+}
+
+.row::after {
+
+    content: "";
+    clear: both;
+    display: table;
+}
