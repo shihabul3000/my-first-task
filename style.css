@@ -1,3 +1,9 @@
+.flex {
+    display: flex;
+}
+
+
+
 #center-text {
     padding-top: 10%;
     padding-left: 30%;
@@ -63,4 +69,93 @@
     content: "";
     clear: both;
     display: table;
+}
+
+.shelter {
+    position: absolute;
+    top: 1233px;
+    left: 530px;
+
+    z-index: 1
+}
+
+.education {
+    position: absolute;
+    top: 1233px;
+    left: 1020px;
+
+    z-index: 1
+}
+
+.food {
+    position: absolute;
+    top: 1233px;
+    left: 40px;
+
+    z-index: 1
+}
+
+
+.gray-block {
+    position: absolute;
+    top: 1299px;
+
+    left: 40px;
+    z-index: 1;
+}
+
+.pink-block {
+    position: absolute;
+    top: -50px;
+    left: 600px;
+    z-index: 1;
+}
+
+.yellow-block {
+    position: absolute;
+    top: -50px;
+    left: 600px;
+    z-index: 1;
+
+}
+
+#position {
+    position: absolute;
+    top: 500px;
+    left: -600px
+}
+
+.part02text {
+    position: relative;
+    top: 430px;
+}
+
+.part02text-2 {
+
+    position: relative;
+    top: 600px;
+    right: 600px;
+}
+
+.picsecond {
+    position: relative;
+    top: 400px;
+    right: 60px;
+}
+
+.linkButton {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.gmt {
+    position: relative;
+    top: 500px;
+    right: 60px;
+
 }
