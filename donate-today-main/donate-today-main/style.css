@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+/* section-1 */
+h1 {
+    padding-top: 10%;
+}
+
+.hedding {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+}
+
+
+.top-banner-text {
+    color: white;
+    text-align: center;
+}
+
+.top-banner {
+    margin-top: 0;
+    height: 600px;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #ba3a3a;
+    padding: 15px 45px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* section-2 */
+.hedding-2 {
+    padding-top: 10%;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.middle-banner-text {
+    text-align: center;
+}
+
+.second-section {
+    align-self: center;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+
+}
+
+#mark {
+    border: 2px red;
+    color: red;
+    background-color: #EA8A8A;
+}
+
+#mark-1 {
+    background-color: gray;
+}
+
+.amount {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+
+}
+
+hr {
+    width: 100%;
+}
+
+.Our-Donate-Plan {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.Our-Donate-Plan-text {
+    color: black;
+    text-align: center;
+}
+
+.Plan {
+    text-align: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+
+}
+
+footer h1 {
+    font-family: "Brush Script MT", cursive;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+}
+
+
+.card-flex {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 2%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.card-in {
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 5%;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+.card-in2 {
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-right: 25px;
+    text-align: justify;
+    border-radius: 10px;
+
+    box-shadow: -7px 0 10px #555;
+
+
+}
+
+.card-in3 {
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-right: 25px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: -7px 0 10px #555;
+
+
+}
+
+.card-in img {
+    float: left;
+}
+
+.card-in p,
+h3 {
+    text-align: left;
+}
+
+.card-in2 img {
+    float: left;
+}
+
+.card-in2 p,
+h3 {
+    text-align: left;
+}
+
+.fc-bg-color {
+    background-color: rgb(118, 118, 158);
+}
+
+.se-bg-color {
+    background-color: rgb(201, 147, 206);
+}
+
+.th-bg-color {
+    background-color: rgb(154, 110, 141);
+}
+
+.one-bg-color {
+    background-color: rgb(198, 138, 171);
+}
+
+
+.form-1 {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    width: 50%;
+    background-color: rgb(234, 211, 236);
+    border-radius: 10px;
+}
+
+.form-1 .text-form {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: -20%;
+    padding-right: 0%;
+    padding-left: 0%;
+    width: 40%;
+    border: none;
+    color: rgb(105, 104, 104);
+    background-color: rgb(180, 160, 160);
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+}
+
+::placeholder {
+    padding-left: 6%;
+}
+
+
+
+.form-1 .submit-form {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 0%;
+    margin-left: 20%;
+    margin-right: auto;
+    width: 40%;
+    border: none;
+    background-color: red;
+    color: white;
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+}
+
+.items-2 {
+    text-align: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
